@@ -48,7 +48,7 @@ const AnalyzerForm = ({ setResult }) => {
           onChange={(e) => setSelfIntroduction(e.target.value)}
           placeholder="자기소개서 내용을 입력하세요..."
           rows={10}
-          className="w-full px-4 py-3 bg-sub border border-border rounded-xl text-text-heading placeholder-text-body/50 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition resize-vertical"
+          className="w-full px-4 py-3 bg-sub border border-border rounded-xl text-text-heading placeholder-text-body/50 focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition resize-none"
         />
       </div>
 
